@@ -103,13 +103,15 @@ nav .profile-link a {
     color: #fcf806;
 }
 .home-main-button {
-    width: 110px;
+    width: 130px;
     height: 50px;
     background: #48cfad;
     text-align: center;
     font-weight: 700;
     font-size: 18px;
     line-height: 50px;
+    border: 2px solid #e6e9ed;
+    border-radius: 10%
 }
 
 .blogs-main {
