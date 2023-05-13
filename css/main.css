@@ -39,7 +39,7 @@ header .header-icons-container {
 header .header-icons-container .icons {
     width: 300px;
     height: auto;
-    display: flex;
+    display: none;
     justify-items: flex-end;
     align-items: center;
     justify-content: space-between;
@@ -51,15 +51,20 @@ header .icons span {
 }
 nav  {
     display: grid;
+    grid-template-columns: 1fr;
+    height: 90px;
+}
+#nav-contactame {
+    display: grid;
     grid-template-columns: 1fr 1fr;
     height: 90px;
 }
 nav .nav-logo-container {
-    margin-left: 50px;
+    margin-left: 25px;
 }
 nav .nav-logo-container img {
-    width: 220px;
-    margin-top: 10px;
+    max-width: 200px;
+    margin-top: 15px;
 }
 nav .profile-link {
     display: flex;
@@ -95,7 +100,7 @@ nav .profile-link a {
     letter-spacing: 10px;
     color: black;
     text-align: center;
-    color: white;
+    color: #fcf806;
 }
 .home-main-button {
     width: 110px;
@@ -215,7 +220,7 @@ footer p {
     margin-bottom: 50px;
 }
 .profile-main-container img {
-    width: 320px;
+    width: 260px;
     margin-right: 30px;
 }
 .profile-main-container .profile-container {
